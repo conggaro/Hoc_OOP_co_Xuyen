@@ -24,3 +24,17 @@ Tuần 4 (12/06/2023):
 4. Ôn biến con trỏ
 5. Ôn bài đếm chữ, đếm số, đếm ký tự (kiểu string)
 6. Ôn bài kiểu bản ghi (struct)
+--------------------------------------------------------------------------------------------
+
+Tuần 5 (19/06/2023):
+1. Thi giữa kỳ (bài 1 nhập xuất dữ liệu, bài 2 đọc ghi file, bài 3 đọc ghi file)
+2. Khai báo lớp (class)
+3. Khai báo thuộc tính (properties)
+4. Khai báo phương thức (methods)
+5. Phương thức tạo không tham số (constructor)
+6. Phương thức tạo có tham số (cái này nó là nạp chồng overload của phương thức tạo không tham số)
+7. Phương thức hủy (destructor). Lúc khai báo thì có dấu "~"
+8. Phương thức gán dt2 cho dt1 (hoặc gọi là phương thức copy)
+9. Biến static (là 1 giải pháp dùng để đếm số lượng đối tượng)
+10. Hàm bạn bè (friend) --> Có tác dụng truy cập, sử dụng các thuộc tính private của 1 lớp (2 lớp cũng được luôn)
+11. Con trỏ this
