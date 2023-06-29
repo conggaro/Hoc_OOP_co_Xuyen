@@ -49,7 +49,7 @@
 2. Học tính đa hình.<br>
 &emsp;&emsp;&emsp;&emsp;Là khả năng cho phép<br>
 &emsp;&emsp;&emsp;&emsp;sự thể hiện khác nhau<br>
-&emsp;&emsp;&emsp;&emsp;của một phương thức<br>
+&emsp;&emsp;&emsp;&emsp;của MỘT PHƯƠNG THỨC<br>
 &emsp;&emsp;&emsp;&emsp;ở các lớp kế thừa khác nhau.<br><br>
 4. Học tính trừu tượng.<br>
 &emsp;&emsp;&emsp;&emsp;OK
