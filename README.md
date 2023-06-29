@@ -37,8 +37,8 @@
 
 # Tuần 6 (26/06/2023):
 1. Học tính kế thừa.
-&emsp&emsp&emsp&emsp OK
+&emsp;&emsp;&emsp;&emsp; OK
 2. Học tính đa hình.
-&emsp&emsp&emsp&emsp OK
+&emsp;&emsp;&emsp;&emsp; OK
 3. Học tính trừu tượng.
-&emsp&emsp&emsp&emsp OK
+&emsp;&emsp;&emsp;&emsp; OK
