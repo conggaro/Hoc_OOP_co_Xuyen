@@ -51,5 +51,8 @@
 &emsp;&emsp;&emsp;&emsp;sự thể hiện khác nhau<br>
 &emsp;&emsp;&emsp;&emsp;của MỘT PHƯƠNG THỨC<br>
 &emsp;&emsp;&emsp;&emsp;ở các lớp kế thừa khác nhau.<br><br>
+&emsp;&emsp;&emsp;&emsp;--> Ghi đè (Overriding)<br>
+&emsp;&emsp;&emsp;&emsp;--> Nạp chồng (Overloading)<br>
+&emsp;&emsp;&emsp;&emsp;--> Kết nối muộn (Late binding)<br><br>
 4. Học tính trừu tượng.<br>
 &emsp;&emsp;&emsp;&emsp;OK
