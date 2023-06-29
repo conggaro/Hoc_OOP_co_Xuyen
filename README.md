@@ -54,5 +54,9 @@
 &emsp;&emsp;&emsp;&emsp;--> Ghi đè (Overriding)<br>
 &emsp;&emsp;&emsp;&emsp;--> Nạp chồng (Overloading)<br>
 &emsp;&emsp;&emsp;&emsp;--> Kết nối muộn (Late binding)<br><br>
+&emsp;&emsp;&emsp;&emsp;Phương thức ảo<br>
+&emsp;&emsp;&emsp;&emsp;--> Được gọi theo cơ chế kết nối muộn (có từ khóa virtual)<br>
+&emsp;&emsp;&emsp;&emsp;Ví dụ:<br>
+&emsp;&emsp;&emsp;&emsp;public: virtual void Print() {}<br><br>
 4. Học tính trừu tượng.<br>
 &emsp;&emsp;&emsp;&emsp;OK
