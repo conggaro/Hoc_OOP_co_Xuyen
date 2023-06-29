@@ -40,10 +40,10 @@
 &emsp;&emsp;&emsp;&emsp;Lớp cơ sở (base class).<br>
 &emsp;&emsp;&emsp;&emsp;Lớp dẫn xuất (derived class).<br>
 &emsp;&emsp;&emsp;&emsp;Kiểu kế thừa: public, protected, private.<br><br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Trong C++ có:<br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;--> Đơn kế thừa.<br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;--> Đa kế thừa.<br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;--> Kế thừa nhiều tầng.<br>
+&emsp;&emsp;&emsp;&emsp;Trong C++ có:<br>
+&emsp;&emsp;&emsp;&emsp;--> Đơn kế thừa.<br>
+&emsp;&emsp;&emsp;&emsp;--> Đa kế thừa.<br>
+&emsp;&emsp;&emsp;&emsp;--> Kế thừa nhiều tầng.<br>
 2. Học tính đa hình.<br>
 &emsp;&emsp;&emsp;&emsp;OK
 3. Học tính trừu tượng.<br>
