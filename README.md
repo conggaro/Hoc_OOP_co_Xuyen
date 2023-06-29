@@ -45,8 +45,11 @@
 &emsp;&emsp;&emsp;&emsp;--> Đa kế thừa.<br>
 &emsp;&emsp;&emsp;&emsp;--> Kế thừa nhiều tầng.<br><br>
 &emsp;&emsp;&emsp;&emsp;Lớp cơ sở ảo (virtual base class)<br>
-&emsp;&emsp;&emsp;&emsp;--> Để giải quyết vấn đề kế thừa như hình kim cương (kinh điển).<br>
+&emsp;&emsp;&emsp;&emsp;--> Để giải quyết vấn đề kế thừa như hình kim cương (kinh điển).<br><br>
 2. Học tính đa hình.<br>
-&emsp;&emsp;&emsp;&emsp;OK
-3. Học tính trừu tượng.<br>
+&emsp;&emsp;&emsp;&emsp;Là khả năng cho phép<br>
+&emsp;&emsp;&emsp;&emsp;sự thể hiện khác nhau<br>
+&emsp;&emsp;&emsp;&emsp;của một phương thức<br>
+&emsp;&emsp;&emsp;&emsp;ở các lớp kế thừa khác nhau.<br><br>
+4. Học tính trừu tượng.<br>
 &emsp;&emsp;&emsp;&emsp;OK
