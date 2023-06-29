@@ -41,7 +41,7 @@
 &emsp;&emsp;&emsp;&emsp;Lớp dẫn xuất (derived class).<br>
 &emsp;&emsp;&emsp;&emsp;Kiểu kế thừa: public, protected, private.<br>
 <br>
-&emsp;&emsp;&emsp;&emsp;Trong C++ có:<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Trong C++ có:<br>
 &emsp;&emsp;&emsp;&emsp;--> Đơn kế thừa.<br>
 &emsp;&emsp;&emsp;&emsp;--> Đa kế thừa.<br>
 &emsp;&emsp;&emsp;&emsp;--> Kế thừa nhiều tầng.<br>
