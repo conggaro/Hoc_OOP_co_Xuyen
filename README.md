@@ -54,9 +54,14 @@
 &emsp;&emsp;&emsp;&emsp;--> Ghi đè (Overriding)<br>
 &emsp;&emsp;&emsp;&emsp;--> Nạp chồng (Overloading)<br>
 &emsp;&emsp;&emsp;&emsp;--> Kết nối muộn (Late binding)<br><br>
-&emsp;&emsp;&emsp;&emsp;Phương thức ảo<br>
-&emsp;&emsp;&emsp;&emsp;--> Được gọi theo cơ chế kết nối muộn (có từ khóa virtual)<br>
+&emsp;&emsp;&emsp;&emsp;Phương thức ảo.<br>
+&emsp;&emsp;&emsp;&emsp;--> Được gọi theo cơ chế kết nối muộn (có từ khóa virtual).<br>
 &emsp;&emsp;&emsp;&emsp;Ví dụ:<br>
 &emsp;&emsp;&emsp;&emsp;public: virtual void Print() {}<br><br>
 4. Học tính trừu tượng.<br>
-&emsp;&emsp;&emsp;&emsp;OK
+&emsp;&emsp;&emsp;&emsp;Lớp trừu tượng (abstract class).<br>
+&emsp;&emsp;&emsp;&emsp;--> Chứa phương thức ảo thuần túy.<br>
+&emsp;&emsp;&emsp;&emsp;--> Không thể tạo đối tượng từ lớp trừu tượng.<br><br>
+&emsp;&emsp;&emsp;&emsp;Phương thức ảo thuần túy (pure virtual function).<br>
+&emsp;&emsp;&emsp;&emsp;Ví dụ:<br>
+&emsp;&emsp;&emsp;&emsp;public: virtual void Print() = 0;<br>
