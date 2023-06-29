@@ -34,3 +34,8 @@
 9. Biến static (là 1 giải pháp dùng để đếm số lượng đối tượng)
 10. Hàm bạn bè (friend) --> Có tác dụng truy cập, sử dụng các thuộc tính private của 1 lớp (2 lớp cũng được luôn)
 11. Con trỏ this
+
+# Tuần 6 (26/06/2023):
+1. Học tính kế thừa.
+2. Học tính đa hình.
+3. Học tính trừu tượng.
