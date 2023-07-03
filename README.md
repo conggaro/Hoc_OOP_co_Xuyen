@@ -65,3 +65,16 @@
 &emsp;&emsp;&emsp;&emsp;Phương thức ảo thuần túy (pure virtual function).<br>
 &emsp;&emsp;&emsp;&emsp;Ví dụ:<br>
 &emsp;&emsp;&emsp;&emsp;public: virtual void Print() = 0;<br>
+
+# Tuần 7 (03/07/2023):
+1. Học nạp chồng toán tử +
+2. Học nạp chồng toán tử -
+3. Học nạp chồng toán tử *
+4. Học nạp chồng toán tử /
+5. Học nạp chồng toán tử >>
+6. Học nạp chồng toán tử <<
+7. Ôn thi cuối kỳ
+8. Học đếm từ
+9. Học lấy ra tên trong họ tên
+10. Học in ra những số khác nhau (loại bỏ số trùng nhau trong mảng)
+11. Sắp xếp mảng
