@@ -82,6 +82,22 @@ class SINHVIEN{
         int get_NamSinh(){
             return nam_sinh;
         }
+
+        // hàm lấy tên
+        string Ham_LayTen(){
+            string ten = "";
+
+            // việc 1:
+            // tìm vị trí khoảng trống đầu tiên từ cuối về
+            int vi_tri = 0;
+            vi_tri = ho_ten.rfind(' ', ho_ten.length() - 1);
+
+            // việc 2:
+            // hứng dữ liệu vào biến "ten"
+            ten = ho_ten.substr(vi_tri + 1, ho_ten.length() - 1 - vi_tri);
+
+            return ten;
+        }
 };
 
 bool operator>(SINHVIEN dt1, SINHVIEN dt2){
@@ -140,7 +156,7 @@ int main(){
     for (int i = 0; i < n; i++)
     {
         bool kiemTra1;
-        if (arr[i].get_HoTen().find("Binh", 0) != -1)
+        if (arr[i].Ham_LayTen() == "Binh")
         {
             kiemTra1 = true;
         }
@@ -164,7 +180,7 @@ int main(){
         for (int i = 0; i < n; i++)
         {
             bool kiemTra1;
-            if (arr[i].get_HoTen().find("Binh", 0) != -1)
+            if (arr[i].Ham_LayTen() == "Binh")
             {
                 kiemTra1 = true;
             }
