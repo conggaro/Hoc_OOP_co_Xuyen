@@ -4,6 +4,8 @@
 // 3. nhập n phần tử
 // 4. hiển thị nhân viên có quê ở Hà Nội
 // 5. in ra trung bình cộng lương của tất cả nhân viên
+// 6. sắp xếp lương tăng dần
+// 7. đếm nhân viên có tuổi lớn hơn 30
 
 #include <iostream>
 #include <string>
@@ -96,6 +98,35 @@ class NHANVIEN{
         int get_Luong(){
             return luong;
         }
+
+        // hàm get_Nam
+        int get_Nam(){
+            string data_nam = "";
+
+            int dem = 0;
+
+            for (int i = ngay_sinh.length() - 1; i >= 0; i--)
+            {
+                dem ++;
+
+                data_nam = data_nam + ngay_sinh[i];
+
+                if (dem == 4)
+                {
+                    break;
+                }                
+            }
+            
+            string data = "";
+            for (int i = data_nam.length() - 1; i >= 0 ; i--)
+            {
+                data = data + data_nam[i];
+            }
+            
+            int nam = stoi(data);
+
+            return nam;
+        }
 };
 
 int main(){
@@ -136,6 +167,44 @@ int main(){
     }
     
     cout << "Trung binh cong luong = " << (float)tong / n << "\n\n";
+
+    // sắp xếp nhân viên
+    // tăng dần
+    // theo lương
+    NHANVIEN temp;
+
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = i + 1; j < n; j++)
+        {
+            if (arr[i].get_Luong() > arr[j].get_Luong())
+            {
+                temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }            
+        }        
+    }
+
+    cout << "-------------------- LUONG TANG DAN --------------------\n";
+    for (int i = 0; i < n; i++)
+    {
+        arr[i].HienThi();
+        cout << "\n\n";
+    }
+
+    // đếm nhân viên có tuổi
+    // lớn hơn 30
+    int dem_tuoi = 0;
+    for (int i = 0; i < n; i++)
+    {
+        if (2020 - arr[i].get_Nam() > 30)
+        {
+            dem_tuoi ++;
+        }        
+    }
+    
+    cout << "Co " << dem_tuoi << " nhan vien lon hon 30 tuoi\n\n";
 
     return 0;
 }
