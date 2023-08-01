@@ -32,8 +32,6 @@
 
 // (bạn có thể nghĩ thêm các chức năng khác)
 
-// tý nữa code tiếp dòng 243
-
 #include <iostream>
 #include <string>
 #include <fstream>
